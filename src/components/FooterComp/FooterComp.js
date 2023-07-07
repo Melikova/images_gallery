@@ -4,7 +4,7 @@ import { Linkedin } from 'react-bootstrap-icons';
 import { Github } from 'react-bootstrap-icons';
 
 
-export function Footer(){
+export function FooterComp(){
     return(
         <Container fluid className='text-center text-lg-start text-muted bg-light-subtle py-4'>
           <Container fluid className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom border-dark'>

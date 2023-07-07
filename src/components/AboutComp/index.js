@@ -1,0 +1,1 @@
+export {AboutComp} from './AboutComp';

@@ -1,15 +1,21 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {NavbarComp} from './components/NavbarComp'
+import { NavbarComp } from './components/NavbarComp'
 import { HomeComp } from './components/HomeComp';
-import { Footer } from './components/Footer'
+import { FooterComp } from './components/FooterComp'
+import { AboutComp } from './components/AboutComp';
+import { SkillsComp } from './components/SkillsComp';
+import { ProjectsComp } from './components/ProjectsComp'
 
 function App() {
   return (
     <> 
       <NavbarComp />
       <HomeComp />
-      <Footer />
+      <AboutComp />
+      <SkillsComp />
+      <ProjectsComp />
+      <FooterComp />
     </>
   );
 }
