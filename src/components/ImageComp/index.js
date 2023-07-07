@@ -1,0 +1,1 @@
+export {ImageComp} from './ImageComp';
