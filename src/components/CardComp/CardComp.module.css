@@ -26,18 +26,18 @@
   }
   
   .clash-card__image--barbarian {
-    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian-bg.jpg");
+    background: #f0d891;
   }
   .clash-card__image--barbarian img {
-    width: 400px;
+    width: 380px;
     position: absolute;
-    top: -65px;
-    left: -70px;
+    top: -35px;
+    left: -60px;
     transition: 0.5s ease-in-out;
   }
 
   .clash-card:hover .clash-card__image--barbarian img{
-    transform: scale(1.3);
+    transform: scale(1.2);
   }
 
   
