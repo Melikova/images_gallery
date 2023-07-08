@@ -1,0 +1,1 @@
+export {CardComp} from './CardComp'

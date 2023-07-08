@@ -85,14 +85,14 @@
     border-radius: 5px;
 }
 
-img{
+.grid img{
     object-fit: cover;
     height: 100%;
     width: 100%;
     transition: 0.5s ease-in-out;
 }
 
-img:hover{
+.grid img:hover{
     filter:none;
     transform: scale(1.3);
 }
