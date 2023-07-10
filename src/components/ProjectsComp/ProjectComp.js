@@ -1,6 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Slider from "react-slick";
-import { CardComp } from '../CardComp';
+import { CardComp } from '../CardComp/CardComp';
 import weather from './images/weather.png'
 import books from './images/books.png'
 import food from './images/food.png'
@@ -46,16 +46,16 @@ export function ProjectsComp(){
         <div className='h2 text-center my-5 pt-5 fw-bolder'>PROJECTS</div>
         <Slider {...settings}>
           <div>
-            <CardComp upname="javascript" viewsCount={20} reviewsCount={10} commentsCount={15} imageSrc={weather} imageAlt="weather" name="Weather App" desc="The Weather App highlights my expertise in JavaScript programming, showcasing my ability to create functional and visually appealing applications using pure JavaScript."/>
+            <CardComp upname="javascript" imageSrc={weather} imageAlt="weather" name="Weather App" desc="The Weather App highlights my expertise in JavaScript programming, showcasing my ability to create functional and visually appealing applications using pure JavaScript."/>
           </div>
           <div>
-            <CardComp upname="javascript / firebase" viewsCount={10} reviewsCount={4} commentsCount={3} imageSrc={books} imageAlt="books" name="Book Store App" desc="The Book Store App demonstrates my proficiency in creating responsive and user-friendly frontend interfaces, as well as my experience in seamlessly integrating Firebase services and Google APIs."/>
+            <CardComp upname="javascript / firebase" imageSrc={books} imageAlt="books" name="Book Store App" desc="The Book Store App demonstrates my proficiency in creating responsive and user-friendly frontend interfaces, as well as my experience in seamlessly integrating Firebase services and Google APIs."/>
           </div>
           <div>
-            <CardComp upname="react / redux " viewsCount={12} reviewsCount={6} commentsCount={2} imageSrc={food} imageAlt="food" name="Food Delivery App" desc="The Food Delivery App exemplifies my skills in frontend development using React and Redux, showcasing my ability to create engaging and user-friendly interfaces while effectively managing app state."/>
+            <CardComp upname="react / redux " imageSrc={food} imageAlt="food" name="Food Delivery App" desc="The Food Delivery App exemplifies my skills in frontend development using React and Redux, showcasing my ability to create engaging and user-friendly interfaces while effectively managing app state."/>
           </div>
           <div>
-            <CardComp upname="javascript / firebase" viewsCount={10} reviewsCount={4} commentsCount={3} imageSrc={books} imageAlt="books" name="BookStore App" desc="The Book Store App demonstrates my proficiency in creating responsive and user-friendly frontend interfaces, as well as my experience in seamlessly integrating Firebase services and Google APIs."/>
+            <CardComp upname="javascript / firebase" imageSrc={books} imageAlt="books" name="BookStore App" desc="The Book Store App demonstrates my proficiency in creating responsive and user-friendly frontend interfaces, as well as my experience in seamlessly integrating Firebase services and Google APIs."/>
           </div>
         </Slider>
         </Container>

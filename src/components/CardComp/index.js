@@ -1,1 +1,1 @@
-export {CardComp} from './CardComp'
+export {CardComp} from './CardComp';
